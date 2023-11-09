@@ -1,0 +1,88 @@
+
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+    background-color: #111;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+/* Hero section styles */
+.hero {
+    background: url('netflix-hero.jpg') center/cover no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 0 20px;
+    color: #fff;
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero-buttons button {
+    padding: 10px 20px;
+    margin-right: 20px;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+}
+
+.cta {
+    background-color: #e50914;
+    color: #fff;
+}
+
+.demo {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+/* Features section styles */
+.features {
+    padding: 40px 0;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+}
+
+/* Footer styles */
+footer {
+    background-color: #000;
+    text-align: center;
+    padding: 20px 0;
+    color: #fff;
+}
